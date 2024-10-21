@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: aliceblue;
+    }
+    
+    header {
+        background-color: rgb(72, 63, 63);
+        padding: 10px;
+        text-align: center;
+        display: left;
+        justify-content: space-between;
+        align-items: center;
+        float: inherit;
+        height: 125px;
+        margin: auto;
+    }
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    nav li {
+        margin-right: 10px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color:white;   
+    }
+
+    .nav {
+       float:right;
+       margin-top: 40px;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        
+        background-color: rgb(110, 101, 90);
+    }
+    
+    .section {
+        background-color: #5e5959;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        height: 100%;
+        }
+    
+    h1, h2 {
+        color: #fff9f9;
+    }
+        footer {
+        
+        background-color:rgb(72, 63, 63);
+        padding: 10px;
+        height: 100px;
+        text-align: center;
+        clear: both;
+    }
+
+    .berita {
+        background-color: rgb(110, 101, 90);
+        width: 100%;
+    }
+
+    .kontak {
+        background-color: rgb(41, 57, 78);
+        height: 170px;
+        border:1px solid rgb(41, 57, 78);
+    }
+
+    .article2 {
+        height: 100%;
+    }
+
+    .judul{
+        width:680px;
+        height:100px;
+        float: left;
+        text-align: left;
+        color: #fff9f9;
+
+    }
+    .column1{
+        float: left;
+        width: 50%;
+        flex: 50%;
+        color:white;
+        background-color: rgb(110, 101, 90);
+        height: 400px;
+        
+    }
+    .row:after {
+        content:"";
+        display: table;
+        clear: both;
+        background-color: rgb(72, 63, 63);
+    }
+    .column2{
+        float: left;
+        width: 50%;
+        flex: 50%;
+        color:white;
+        background-color: rgb(110, 101, 90);
+        height: 400px;
+        font-size: large;
+    }
+
